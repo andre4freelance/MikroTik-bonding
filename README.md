@@ -1,6 +1,9 @@
 # Bonding on MikroTik
 This repository provides configuration examples for **MikroTik Bonding using Round-Robin (RR) mode**.  
-The scenario simulates a Metro-E service where **RO-DIST receives an access VLAN**, so bonding is configured on the **physical interfaces**, while **RO-POP-A receives a trunk VLAN**, so bonding is configured on the **VLAN interfaces**.
+The scenario simulates a Metro-E service where **RO-DIST receives a trunk VLAN**, so bonding is configured on the **VLAN interfaces**, while **RO-POP-A receives an access VLAN**, so bonding is configured on the **physical interfaces**.
+
+As an additional note, on the Cisco switch side I also configured a **Port-Channel** between ESW1 and ESW3 to aggregate two physical interfaces.
+
 
 ---
 
@@ -32,5 +35,5 @@ Linkedin post :
 <https://www.linkedin.com/posts/link-andre-bastian_mikrotik-metro-man-activity-7191110146570219520-nl_M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD73JlUBty-p-mBfMEW0-O4j0sv-e_PRQvc>
 
 Facebook post : 
-<https://www.linkedin.com/posts/link-andre-bastian_mikrotik-metro-man-activity-7191110146570219520-nl_M?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD73JlUBty-p-mBfMEW0-O4j0sv-e_PRQvc>
+<https://web.facebook.com/share/p/1AvRVGn6iA/>
 
